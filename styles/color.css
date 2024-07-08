@@ -117,3 +117,55 @@ padding: 18px 35px;
 .banner-button-cv, .banner-button-contact{
     margin-right: 10px;
 }
+/* main  */
+/* about me section */
+.about-me-container{
+    width: 1020px;
+    height: 450px;
+    
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 248, 243);
+}
+.about-me-content{
+    width: 827px;
+    height: 288px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+
+}
+.about-me-info-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.about-me-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.about-me-description h2 {
+    color: rgb(24, 24, 24);
+    font-size: 25px;
+    font-weight: 700;
+}
+/* shared style */
+.about-me-description-primary {
+    color: rgb(117, 117, 117);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.data {
+    color: rgb(24, 24, 24);
+    font-size: 15px;
+    font-weight: 700;
+}
